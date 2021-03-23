@@ -1,0 +1,31 @@
+@import '../SassVariables/color.scss';
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    background-color: rgb(235, 233, 233);
+   p{
+       margin-top: 42px;
+       color:rgb(73, 72, 72) ;
+       display: inline;
+   }
+    div{
+        width: 300px;
+        border-right: 1px solid rgb(134, 136, 134);
+        margin-top: 30px;
+        h1{
+            display: inline;
+            margin-left: 40px;
+            color: rgb(73, 72, 72);
+            span{
+                color: $textheaderColor;
+            }
+        }
+        p{
+            color: rgb(73, 72, 72);
+            display: inline;
+            padding-left: 20px;
+        }
+    }
+}

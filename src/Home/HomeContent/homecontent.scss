@@ -1,0 +1,49 @@
+@import '../../SassVariables/color.scss';
+@import '../../SassVariables/fonts.scss';
+
+.homeContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(248, 248, 248);
+    align-items: center;
+    
+    div{
+        display: grid;
+        grid-template-columns: 70px 1fr;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        outline: none;
+        
+        button{
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            cursor: pointer;
+            border: none;
+            background-color: rgb(8, 237, 245);
+            color: white;
+            font-size: 30px;
+            transition: 0.3s;
+            outline: none;
+            &:hover{
+                background-color: $textheaderColor;
+                color: black;
+                transition: 0.3s;
+            }
+        }
+        span{
+            h1{
+                font-family: $fontsText;
+                margin-bottom: 10px;
+            }
+            p{
+                margin-top: 10px;
+                font-family: $fontsText;
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
+

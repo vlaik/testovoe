@@ -1,0 +1,23 @@
+@import '../../SassVariables/color.scss';
+
+
+div{
+  
+   
+    .links{
+        text-decoration: none;
+        color: $textColorBlack;
+        margin-left: 10%;
+        display: inline-block;
+        margin-top: 25px;
+        transition: 1s;
+        &:hover{
+            color: $textheaderColor;
+            transition: 0.5s;
+        }
+        &:focus{
+            color: $textheaderColor;
+        }
+    }
+}
+

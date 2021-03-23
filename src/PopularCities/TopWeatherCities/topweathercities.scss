@@ -1,0 +1,33 @@
+.TopWeatherCities{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: repeat(5, 200px);
+    grid-template-columns: 1fr 1fr;
+    
+    
+    .cxz{
+        border: 1px solid rgb(175, 175, 175);
+        background-size: 100% 100%;
+        color: white;
+        transition: 1.5s;
+        &:hover{
+            transition: 2s;
+            margin-bottom: 100%;
+            color: black;
+            h4{
+                color: black;
+                transition: 1.5s;
+            }
+        }
+        h1{
+            margin-left: 30px;
+        }
+        h4{
+            margin-left: 30%;
+            margin-top: -30%;
+            color: rgba(255, 222, 173, 0);
+            
+        }
+        
+    }
+}

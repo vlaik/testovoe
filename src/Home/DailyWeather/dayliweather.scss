@@ -1,0 +1,40 @@
+@import '../../SassVariables/fonts.scss';
+@import '../../SassVariables//color.scss';
+
+.WeatherVideos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: white;
+    align-items: center;
+    border-top: 1px solid rgb(209, 209, 209);
+    span{
+        margin-left: 40px;
+        h2{
+            margin-bottom: 10px;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: $fontsText;
+        }
+    }
+        img{
+           
+            width: 200px;
+            height: 100px;
+            z-index: 0;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                height: 120px;
+                width: 220px;
+                box-shadow: 10px 10px black;
+                transition: 0.7s;
+            }
+        }
+    
+       
+        
+}
+   

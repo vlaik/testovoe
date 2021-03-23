@@ -1,0 +1,49 @@
+@import '../../SassVariables/color.scss';
+
+
+.Weather-contant{
+    height: 100%;
+    background-color: red;
+    background-size: cover;
+    background: no-repeat;
+    .weather-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgb(109,125,134);
+        width: 90%;
+        height: 250px;
+        margin-left: 5%;
+        opacity: 0.8;
+        .div{
+            width: 100px;
+            height: 100px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 50px 50px;
+        }
+        h1{
+            margin: 0;
+            margin-left: 10%;
+            font-size: 60px;
+            color: $textColorWhite;
+        }
+        p{
+            color: $textColorWhite;
+            margin: 0;
+            margin-left: 10%;
+            font-size: 40px;
+        }
+        .description{
+            margin-left: 50%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .temp{
+            margin-left: 40%;
+            font-size: 50px;
+        }
+        img{
+            width: 30px;
+            height: 40px;
+        }
+    }
+}
